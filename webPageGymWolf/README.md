@@ -1,12 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 ## Gymwolf
 
 This is a clone of India's most trusted online pharmacy & medical website **PharmEasy**,  
@@ -41,3 +32,5 @@ Implemented searching ,review product and buying functionalities with online pay
 - start the application 'npm start'
 
 ### Screenshort
+
+![HomePage](webPageGymWolf/src/assets/screencapture-127-0-0-1-5173-2023-11-17-20_05_21.png)
