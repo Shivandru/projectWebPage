@@ -33,13 +33,13 @@ Implemented searching ,review product and buying functionalities with online pay
 
 ### Screenshort
 
-![Alt text](src/assets/screencapture-127-0-0-1-5173-2023-11-17-20_05_21.png)
-![Alt text](src/assets/screencapture-127-0-0-1-5173-about-2023-11-17-20_09_40.png)
-![Alt text](src/assets/screencapture-127-0-0-1-5173-contact-2023-11-17-20_10_02.png)
-![Alt text](src/assets/screencapture-127-0-0-1-5173-database-2023-11-17-20_08_45.png)
-![Alt text](src/assets/screencapture-127-0-0-1-5173-features-2023-11-17-20_07_39.png)
-![Alt text](src/assets/screencapture-127-0-0-1-5173-personalTrainer-2023-11-17-20_06_57.png)
-![Alt text](src/assets/screencapture-127-0-0-1-5173-pricing-2023-11-17-20_11_30.png)
-![Alt text](src/assets/screencapture-127-0-0-1-5173-workoutPlans-2023-11-17-20_14_06.png)
-![Alt text](<src/assets/Screenshot 2023-11-17 201248.png>)
-![Alt text](<src/assets/Screenshot 2023-11-17 201326.png>)
+![Alt text](webPageGymWolf/src/assets/screencapture-127-0-0-1-5173-2023-11-17-20_05_21.png)
+![Alt text](webPageGymWolf/src/assets/screencapture-127-0-0-1-5173-about-2023-11-17-20_09_40.png)
+![Alt text](webPageGymWolf/src/assets/screencapture-127-0-0-1-5173-contact-2023-11-17-20_10_02.png)
+![Alt text](webPageGymWolf/src/assets/screencapture-127-0-0-1-5173-database-2023-11-17-20_08_45.png)
+![Alt text](webPageGymWolf/src/assets/screencapture-127-0-0-1-5173-features-2023-11-17-20_07_39.png)
+![Alt text](webPageGymWolf/src/assets/screencapture-127-0-0-1-5173-personalTrainer-2023-11-17-20_06_57.png)
+![Alt text](webPageGymWolf/src/assets/screencapture-127-0-0-1-5173-pricing-2023-11-17-20_11_30.png)
+![Alt text](webPageGymWolf/src/assets/screencapture-127-0-0-1-5173-workoutPlans-2023-11-17-20_14_06.png)
+![Alt text](<webPageGymWolf/src/assets/Screenshot 2023-11-17 201248.png>)
+![Alt text](<webPageGymWolf/src/assets/Screenshot 2023-11-17 201326.png>)
