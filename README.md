@@ -29,4 +29,6 @@ Gymwolf is a workout tracking tool that helps you keep track of your workouts an
 
 ### Screenshort
 
-![Home](./src/assets/screencapture-127-0-0-1-5173-2023-11-17-20_05_21.png)
+###### Home Page
+
+![Home](https://i.ibb.co/NtNCQWS/screencapture-127-0-0-1-5173-2023-11-17-20-05-21.png)
