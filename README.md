@@ -27,8 +27,44 @@ Gymwolf is a workout tracking tool that helps you keep track of your workouts an
 - install all dependencies, with 'npm install'
 - start the server 'npm run dev'
 
-### Screenshort
+### Screenshorts
 
 ###### Home Page
 
 ![Home](https://i.ibb.co/NtNCQWS/screencapture-127-0-0-1-5173-2023-11-17-20-05-21.png)
+
+###### About Page
+
+![About](https://i.ibb.co/L12JcVp/screencapture-127-0-0-1-5173-about-2023-11-17-20-09-40.png)
+
+###### Personal Trainer Page
+
+![Personal_Trainer_Page](https://i.ibb.co/KNw3ZdJ/screencapture-127-0-0-1-5173-personal-Trainer-2023-11-17-20-06-57.png)
+
+###### Features Page
+
+![Features](https://i.ibb.co/WHJqdSy/screencapture-127-0-0-1-5173-features-2023-11-17-20-07-39.png)
+
+###### Database Page
+
+![Database](https://i.ibb.co/k6NDQZS/screencapture-127-0-0-1-5173-database-2023-11-17-20-08-45.png)
+
+###### Contact Page
+
+![Contact](https://i.ibb.co/kx8xrRZ/screencapture-127-0-0-1-5173-contact-2023-11-17-20-10-02.png)
+
+###### TOS Page
+
+![TOS](https://i.ibb.co/Ksj45C9/screencapture-127-0-0-1-5173-terms-Of-Service-2023-11-17-20-10-36.png)
+
+###### Privacy Page
+
+![Privacy](https://i.ibb.co/xj3hxb2/screencapture-127-0-0-1-5173-privacy-2023-11-17-20-11-07.png)
+
+###### Pricing Page
+
+![Pricing](https://i.ibb.co/ssHDDqm/screencapture-127-0-0-1-5173-pricing-2023-11-17-20-11-30.png)
+
+###### WorkOutPlan Page
+
+![WOPlan](https://i.ibb.co/S0hnKY8/screencapture-127-0-0-1-5173-workout-Plans-2023-11-17-20-14-06.png)
