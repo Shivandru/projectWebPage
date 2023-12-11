@@ -10,11 +10,11 @@ import {
 } from "@chakra-ui/react";
 export default function AboutUs() {
   return (
-    <Container maxW="6xl" height="900px" border="1px solid white">
+    <Container maxW="6xl" height="auto" border="1px solid white" mb="2vh">
       <Box mt="150px" width="100%" borderBottom="1px solid #E2E8F0">
         <Heading mb="20px">About Gymwolf</Heading>
       </Box>
-      <Center mt="20px" h="175px" w="100%" bg="#eeeeee">
+      <Center mt="20px" h="auto" w="100%" bg="#eeeeee">
         <Text fontSize="21px" padding="48px 60px">
           Our goal is to make people happy and fit, to offer them the simplest
           way to track workouts and to communicate with personal trainer.

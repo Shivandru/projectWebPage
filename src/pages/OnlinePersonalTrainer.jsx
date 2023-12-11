@@ -24,7 +24,7 @@ export default function OnlinePersonalTrainer() {
     <>
       <Flex w="100%" h="325px" border="1px solid black" bg="#26a9e1">
         <Center h="100%" w="65%">
-          <Heading color="#FFFFFF" fontSize="48px" ml="200px">
+          <Heading color="#FFFFFF" fontSize="48px" ml="200px" zIndex="2">
             Online personal trainer
           </Heading>
         </Center>
@@ -49,7 +49,7 @@ export default function OnlinePersonalTrainer() {
         <Flex
           mt="30px"
           w="100%"
-          h={{ base: "auto", md: "315px" }}
+          h={{ base: "auto", md: "auto" }}
           direction={{ base: "column", md: "row" }}
         >
           <Image
@@ -82,8 +82,8 @@ export default function OnlinePersonalTrainer() {
               color="#FFFFFF"
               bg="#2ecc71"
               fontSize={{ base: "18px", md: "20px" }}
-              h="60px"
-              w="220px"
+              h={{ base: "50px", md: "60px" }}
+              w={{ base: "180px", md: "200px" }}
               mt="18px"
               _hover={{
                 background: "#276749",
@@ -97,7 +97,7 @@ export default function OnlinePersonalTrainer() {
         <Flex
           mt={{ base: "4", md: "60px" }}
           w="100%"
-          h={{ base: "auto", md: "320px" }}
+          h={{ base: "auto", md: "auto" }}
           direction={{ base: "column", md: "row" }}
         >
           <Image
@@ -138,8 +138,8 @@ export default function OnlinePersonalTrainer() {
               color="#FFFFFF"
               bg="#2ecc71"
               fontSize={{ base: "18px", md: "20px" }}
-              h="60px"
-              w="220px"
+              h={{ base: "50px", md: "60px" }}
+              w={{ base: "180px", md: "200px" }}
               mt="18px"
               _hover={{
                 background: "#276749",
@@ -305,7 +305,11 @@ export default function OnlinePersonalTrainer() {
                   Only 45 USD per month
                 </Text>
               </Card>
-              <Card boxShadow="lg" width={{ base: "100%", md: "31%" }}>
+              <Card
+                boxShadow="lg"
+                width={{ base: "100%", md: "31%" }}
+                mt={{ base: "2vh" }}
+              >
                 <CardHeader bg="#E2E8F0">
                   <Box
                     clipPath="polygon(0 0, 100% 0, 100% 39%, 0 99%)"
@@ -379,7 +383,11 @@ export default function OnlinePersonalTrainer() {
                   Only 38.33 USD per month
                 </Text>
               </Card>
-              <Card boxShadow="lg" width={{ base: "100%", md: "31%" }}>
+              <Card
+                boxShadow="lg"
+                width={{ base: "100%", md: "31%" }}
+                mt={{ base: "2vh" }}
+              >
                 <CardHeader bg="#E2E8F0">
                   <Box
                     clipPath="polygon(0 0, 100% 0, 100% 39%, 0 99%)"

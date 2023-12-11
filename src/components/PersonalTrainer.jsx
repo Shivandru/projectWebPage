@@ -37,8 +37,8 @@ export default function PersonalTrainer() {
           color="white"
           mb="50px"
           mt={{ base: "20px", md: "30px" }}
-          h="60px"
-          w={{ base: "50%", md: "300px" }}
+          h={{ base: "50px", md: "60px", lg: "60px" }}
+          w={{ base: "40%", md: "300px",lg:"300px" }}
           fontSize="20px"
           fontWeight="100"
           _hover={{

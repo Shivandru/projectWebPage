@@ -23,19 +23,33 @@ export default function Pricing() {
     <>
       <Container maxW="6xl" h="100vh" border="1px solid white">
         <Center mt="250px">
-          <Heading fontSize="24" fontWeight="400" textAlign="center">
+          <Heading
+            fontSize={{ base: "18px", md: "24px", lg: "36px" }}
+            fontWeight="400"
+            textAlign="center"
+          >
             The main features of all the Gymwolf applications (web, iOS and
             Android) are free for everyone to use. You can track your workouts,
             browse exercises, create plans and track your progress for free.
           </Heading>
         </Center>
-        <Heading mt="35px" fontSize="24" fontWeight="400" textAlign="center">
+        <Heading
+          mt="35px"
+          fontSize={{ base: "24px", md: "24px", lg: "36px" }}
+          fontWeight="400"
+          textAlign="center"
+        >
           Need more? We got you covered, check below!
         </Heading>
         <Heading mt="100px" fontSize="36px" fontWeight="600" textAlign="center">
           Pricing
         </Heading>
-        <Heading mt="30px" fontSize="36px" fontWeight="400" textAlign="center">
+        <Heading
+          mt="30px"
+          fontSize={{ base: "24px", md: "24px", lg: "36px" }}
+          fontWeight="400"
+          textAlign="center"
+        >
           Online personal trainer + Gymwolf Pro
         </Heading>
       </Container>
@@ -43,7 +57,7 @@ export default function Pricing() {
         <Container maxW="6xl" h="100%">
           <Heading
             textAlign="center"
-            fontSize="25px"
+            fontSize={{ base: "24px", md: "24px", lg: "24px" }}
             fontWeight="400"
             pt="60px"
           >
@@ -58,8 +72,10 @@ export default function Pricing() {
             justify="space-around"
             bg="#e6e7ea"
             pb="50px"
+            direction={{ base: "column", md: "row", lg: "row" }}
+            align={{ base: "center" }}
           >
-            <Card boxShadow="lg" width="31%">
+            <Card boxShadow="lg" width={{ base: "80%", md: "31%", lg: "31%" }}>
               <CardHeader bg="#E2E8F0">
                 <Box
                   clipPath="polygon(0 0, 100% 0, 100% 39%, 0 99%)"
@@ -122,7 +138,11 @@ export default function Pricing() {
                 Only 45 USD per month
               </Text>
             </Card>
-            <Card boxShadow="lg" width="31%">
+            <Card
+              boxShadow="lg"
+              width={{ base: "80%", md: "31%", lg: "31%" }}
+              mt={{ base: "4vh" }}
+            >
               <CardHeader bg="#E2E8F0">
                 <Box
                   clipPath="polygon(0 0, 100% 0, 100% 39%, 0 99%)"
@@ -192,7 +212,11 @@ export default function Pricing() {
                 Only 38.33 USD per month
               </Text>
             </Card>
-            <Card boxShadow="lg" width="31%">
+            <Card
+              boxShadow="lg"
+              width={{ base: "80%", md: "31%", lg: "31%" }}
+              mt={{ base: "4vh" }}
+            >
               <CardHeader bg="#E2E8F0">
                 <Box
                   clipPath="polygon(0 0, 100% 0, 100% 39%, 0 99%)"
@@ -265,15 +289,26 @@ export default function Pricing() {
           </Flex>
         </Container>
       </Box>
-      <Box w="100%" h="auto" mb="50px">
-        <Heading fontSize="31px" textAlign="center" fontWeight="400" mt="60px">
-          Gymwolf Pro
-        </Heading>
+      <Heading fontSize="31px" textAlign="center" fontWeight="400" mt="60px">
+        Gymwolf Pro
+      </Heading>
+      <Box
+        w="100%"
+        h="auto"
+        mb="50px"
+        display="flex"
+        justifyContent="space-around"
+        align="center"
+      >
         <SimpleGrid
-          templateColumns="repeat(3, 1fr)"
-          gap="10px"
-          mt="30px"
-          ml="150px"
+          templateColumns={{
+            base: "1fr",
+            md: "repeat(2, 1fr)",
+            lg: "repeat(3, 1fr)",
+          }}
+          gap={{ base: "10px", md: "20px", lg: "30px" }}
+          mt={{ base: "20px", md: "30px" }}
+          ml={{ base: "20px", md: "50px", lg: "5vw" }}
         >
           <Box w="325px" h="210px">
             <Image
@@ -375,8 +410,14 @@ export default function Pricing() {
             justify="space-around"
             bg="#e6e7ea"
             pb="50px"
+            direction={{ base: "column", md: "row", lg: "row" }}
+            align={{ base: "center" }}
           >
-            <Card boxShadow="lg" width="31%">
+            <Card
+              boxShadow="lg"
+              width={{ base: "80%", md: "31%", lg: "31%" }}
+              mt={{ base: "4vh" }}
+            >
               <CardHeader bg="#E2E8F0">
                 <Box
                   clipPath="polygon(0 0, 100% 0, 100% 39%, 0 99%)"
@@ -443,7 +484,11 @@ export default function Pricing() {
                 Only 5 USD per month
               </Text>
             </Card>
-            <Card boxShadow="lg" width="31%">
+            <Card
+              boxShadow="lg"
+              width={{ base: "80%", md: "31%", lg: "31%" }}
+              mt={{ base: "4vh" }}
+            >
               <CardHeader bg="#E2E8F0">
                 <Box
                   clipPath="polygon(0 0, 100% 0, 100% 39%, 0 99%)"
@@ -513,7 +558,11 @@ export default function Pricing() {
                 Only 4.33 USD per month
               </Text>
             </Card>
-            <Card boxShadow="lg" width="31%">
+            <Card
+              boxShadow="lg"
+              width={{ base: "80%", md: "31%", lg: "31%" }}
+              mt={{ base: "4vh" }}
+            >
               <CardHeader bg="#E2E8F0">
                 <Box
                   clipPath="polygon(0 0, 100% 0, 100% 39%, 0 99%)"

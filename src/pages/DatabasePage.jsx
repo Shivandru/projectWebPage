@@ -40,8 +40,8 @@ export default function DatabasePage() {
         />
         <Heading
           position={{ base: "absolute", md: "absolute" }}
-          left={{ base: "300px", md: "650px" }}
-          top={{ base: "100px", md: "150px" }}
+          left={{ base: "30vw", md: "40vw" }}
+          top={{ base: "15vh", md: "150px" }}
           fontSize={{ base: "36px", md: "48px" }}
           color="#FFFFFF"
           fontWeight="400px"
@@ -62,7 +62,7 @@ export default function DatabasePage() {
         >
           Workout plans
         </Button>
-        <Text fontSize="36px" mt="30px">
+        <Text fontSize="36px" mt="30px" textAlign="center">
           Exercise List
         </Text>
         <SimpleGrid
@@ -276,7 +276,7 @@ export default function DatabasePage() {
         {exerciseData.map((item, index) => (
           <Flex
             key={item.id}
-            h="65px"
+            h="auto"
             width="100%"
             border="1px solid #A0AEC0"
             style={{ backgroundColor: index % 2 === 1 ? "#CBD5E0" : "#FFFFFF" }}
@@ -300,7 +300,7 @@ export default function DatabasePage() {
         {exerciseData.map((item, index) => (
           <Flex
             key={item.id}
-            h="65px"
+            h="auto"
             width="100%"
             border="1px solid #A0AEC0"
             style={{ backgroundColor: index % 2 === 1 ? "#CBD5E0" : "#FFFFFF" }}
@@ -324,7 +324,7 @@ export default function DatabasePage() {
         {exerciseData.map((item, index) => (
           <Flex
             key={item.id}
-            h="65px"
+            h="auto"
             width="100%"
             border="1px solid #A0AEC0"
             style={{ backgroundColor: index % 2 === 1 ? "#CBD5E0" : "#FFFFFF" }}
@@ -348,7 +348,7 @@ export default function DatabasePage() {
         {exerciseData.map((item, index) => (
           <Flex
             key={item.id}
-            h="65px"
+            h="auto"
             width="100%"
             border="1px solid #A0AEC0"
             style={{ backgroundColor: index % 2 === 1 ? "#CBD5E0" : "#FFFFFF" }}
@@ -372,7 +372,7 @@ export default function DatabasePage() {
         {exerciseData.map((item, index) => (
           <Flex
             key={item.id}
-            h="65px"
+            h="auto"
             width="100%"
             border="1px solid #A0AEC0"
             style={{ backgroundColor: index % 2 === 1 ? "#CBD5E0" : "#FFFFFF" }}
@@ -396,7 +396,7 @@ export default function DatabasePage() {
         {exerciseData.map((item, index) => (
           <Flex
             key={item.id}
-            h="65px"
+            h="auto"
             width="100%"
             border="1px solid #A0AEC0"
             style={{ backgroundColor: index % 2 === 1 ? "#CBD5E0" : "#FFFFFF" }}
@@ -420,7 +420,7 @@ export default function DatabasePage() {
         {exerciseData.map((item, index) => (
           <Flex
             key={item.id}
-            h="65px"
+            h="auto"
             width="100%"
             border="1px solid #A0AEC0"
             style={{ backgroundColor: index % 2 === 1 ? "#CBD5E0" : "#FFFFFF" }}
@@ -444,7 +444,7 @@ export default function DatabasePage() {
         {exerciseData.map((item, index) => (
           <Flex
             key={item.id}
-            h="65px"
+            h="auto"
             width="100%"
             border="1px solid #A0AEC0"
             style={{ backgroundColor: index % 2 === 1 ? "#CBD5E0" : "#FFFFFF" }}

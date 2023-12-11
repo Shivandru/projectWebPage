@@ -14,7 +14,13 @@ export default function Progress() {
   const navigate = useNavigate();
   return (
     <>
-      <Flex h="360px" w="100%" direction={{ base: "column", md: "row" }}>
+      <Flex
+        h="auto"
+        w="100%"
+        direction={{ base: "column", md: "row" }}
+        mb={{ base: "5vh", md: "20vh" }}
+        align="center"
+      >
         <Center h={{ base: "50%", md: "100%" }} w={{ base: "100%", md: "50%" }}>
           <Image
             src={progressLogo}
@@ -25,7 +31,7 @@ export default function Progress() {
         <Box
           h="100%"
           w={{ base: "100%", md: "50%" }}
-          ml={{ base: "0", md: "-80px" }}
+          ml={{ base: "0", md: "0px" }}
         >
           <Heading fontSize={{ base: "28px", md: "36px" }} mt="20px">
             See your progress

@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import {
   Container,
   Box,
@@ -26,6 +27,7 @@ import mobileLogo from "../assets/assets (1)/asset 14.png";
 import googleLogo from "../assets/asset 0.png";
 import appleLogo from "../assets/asset 1.png";
 export default function FeaturesPage() {
+  const navigate = useNavigate();
   return (
     <Container maxW="6xl" border="1px solid white" h="auto">
       <Box h="80px" w="100%" borderBottom="1px solid #E2E8F0">
@@ -35,7 +37,7 @@ export default function FeaturesPage() {
       </Box>
       <Flex
         position="relative"
-        h={{ base: "auto", md: "400px" }}
+        h={{ base: "auto", md: "50vh" }}
         w="100%"
         borderBottom="1px solid #A0AEC0"
         mt={{ base: "20px", md: "30px" }}
@@ -80,8 +82,8 @@ export default function FeaturesPage() {
           w={{ base: "70px", md: "110px" }}
           h={{ base: "55px", md: "85px" }}
           position={{ base: "relative", md: "absolute" }}
-          right={{ base: "auto", md: "130px" }}
-          bottom={{ base: "auto", md: "40px" }}
+          right={{ base: "30px", md: "130px" }}
+          bottom={{ base: "0", md: "40px" }}
         />
         <Image
           src={pic2}
@@ -96,7 +98,7 @@ export default function FeaturesPage() {
       <Flex
         position="relative"
         w="100%"
-        h={{ base: "auto", md: "380px" }}
+        h={{ base: "auto", md: "50vh" }}
         borderBottom="1px solid #A0AEC0"
         mt={{ base: "10px", md: "20px" }}
         direction={{ base: "column-reverse", md: "row" }}
@@ -161,13 +163,14 @@ export default function FeaturesPage() {
       </Flex>
       <Flex
         position="relative"
-        h={{ base: "auto", md: "400px" }}
+        h={{ base: "auto", md: "50vh" }}
         w="100%"
         borderBottom="1px solid #A0AEC0"
         mt={{ base: "0px", md: "30px" }}
         direction={{ base: "column", md: "row" }}
         align={{ base: "center", md: "flex-start" }}
         justify={{ base: "center", md: "flex-start" }}
+        pb="2vh"
       >
         <Image
           src={dumbleLogo}
@@ -197,8 +200,9 @@ export default function FeaturesPage() {
           </Text>
         </Box>
         <Button
+          border="2px solid black"
           position={{ base: "absolute", md: "absolute" }}
-          bottom={{ base: "40px", md: "150px" }}
+          bottom={{ base: "2vh", md: "150px",lg:"50px" }}
           left={{ base: "0px", md: "320px" }}
           variant="outline"
           fontWeight="300"
@@ -207,6 +211,7 @@ export default function FeaturesPage() {
             background: "#A0AEC0",
             color: "black",
           }}
+          onClick={() => navigate("/database")}
         >
           Check out our exercise list
         </Button>
@@ -232,9 +237,9 @@ export default function FeaturesPage() {
       <Flex
         position="relative"
         w="100%"
-        h={{ base: "auto", md: "380px" }}
+        h={{ base: "auto", md: "50vh" }}
         borderBottom="1px solid #A0AEC0"
-        mt={{ base: "10px", md: "20px" }}
+        mt={{ base: "3vh", md: "20px" }}
         direction={{ base: "column-reverse", md: "row" }}
         align={{ base: "center", md: "flex-start" }}
         justify={{ base: "center", md: "flex-start" }}
@@ -289,7 +294,7 @@ export default function FeaturesPage() {
       </Flex>
       <Flex
         position="relative"
-        h={{ base: "auto", md: "400px" }}
+        h={{ base: "auto", md: "45vh" }}
         w="100%"
         borderBottom="1px solid #A0AEC0"
         mt={{ base: "20px", md: "30px" }}
@@ -325,8 +330,9 @@ export default function FeaturesPage() {
           </Text>
         </Box>
         <Button
+          border="2px solid black"
           position="absolute"
-          bottom={{ base: "20px", md: "150px" }}
+          bottom={{ base: "20px", md: "150px", lg:"50px" }}
           left={{ base: "20px", md: "320px" }}
           variant="outline"
           fontWeight="300"
@@ -335,6 +341,7 @@ export default function FeaturesPage() {
             color: "black",
           }}
           mt={{ base: "15px", md: "0" }}
+          onClick={() => navigate("/personalTrainer")}
         >
           Learn more
         </Button>

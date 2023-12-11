@@ -15,7 +15,7 @@ export default function HomeVideo() {
         if (videoRef.current) {
           videoRef.current.play();
         }
-      }, 4000);
+      }, 2000);
     }
     playVideo();
   }, []);

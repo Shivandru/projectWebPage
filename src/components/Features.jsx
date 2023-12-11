@@ -16,14 +16,16 @@ export default function Features() {
     <>
       <Flex
         w="100%"
-        h={{ base: "auto", md: "300px" }}
+        h={{ base: "auto", md: "auto" }}
         mt="50px"
         direction={{ base: "column", md: "row" }}
+        mb={{ base: "5vh", md: "20vh" }}
+        align="center"
       >
         <Box
           h="100%"
           w={{ base: "100%", md: "50%" }}
-          ml={{ base: "0", md: "166px" }}
+          ml={{ base: "0", md: "10vw" }}
         >
           <Heading fontSize={{ base: "28px", md: "36px" }} mb="25px">
             Features
@@ -63,6 +65,7 @@ export default function Features() {
             src={featureImg}
             alt="feature Logo"
             maxH={{ base: "0px", md: "300px" }}
+            pr="5vw"
           />
         </Center>
       </Flex>

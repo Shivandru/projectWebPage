@@ -10,9 +10,13 @@ export default function SubFooter() {
       direction="column"
     >
       <Center>
-        <Stack spacing={4} direction="row" align="center">
+        <Stack
+          spacing={{ base: "1", md: "2", lg: "3" }}
+          direction="row"
+          align="center"
+        >
           <Button
-            size={{ base: "md", md: "lg" }}
+            size={{ base: "xs", md: "md", lg: "lg" }}
             fontSize={{ base: "24px", md: "36px" }}
             bg="#FFFFFF"
           >
@@ -22,68 +26,71 @@ export default function SubFooter() {
           <Button
             fontSize={{ base: "24px", md: "36px" }}
             bg="#FFFFFF"
-            size={{ base: "md", md: "lg" }}
+            size={{ base: "xs", md: "md", lg: "lg" }}
           >
             1
           </Button>
           <Button
             fontSize={{ base: "24px", md: "36px" }}
             bg="#FFFFFF"
-            size={{ base: "md", md: "lg" }}
+            size={{ base: "xs", md: "md", lg: "lg" }}
           >
             8
           </Button>
           <Button
             fontSize={{ base: "24px", md: "36px" }}
             bg="#FFFFFF"
-            size={{ base: "md", md: "lg" }}
+            size={{ base: "xs", md: "md", lg: "lg" }}
           >
             4
           </Button>
           <Button
             fontSize={{ base: "24px", md: "36px" }}
             bg="#FFFFFF"
-            size={{ base: "md", md: "lg" }}
+            size={{ base: "xs", md: "md", lg: "lg" }}
           >
             3
           </Button>
           <Button
             fontSize={{ base: "24px", md: "36px" }}
             bg="#FFFFFF"
-            size={{ base: "md", md: "lg" }}
+            size={{ base: "xs", md: "md", lg: "lg" }}
           >
             4
           </Button>
           <Button
             fontSize={{ base: "24px", md: "36px" }}
             bg="#FFFFFF"
-            size={{ base: "md", md: "lg" }}
+            size={{ base: "xs", md: "md", lg: "lg" }}
           >
             3
           </Button>
           <Button
             fontSize={{ base: "24px", md: "36px" }}
             bg="#FFFFFF"
-            size={{ base: "md", md: "lg" }}
+            size={{ base: "xs", md: "md", lg: "lg" }}
           >
             7
           </Button>
           <Button
             fontSize={{ base: "24px", md: "36px" }}
             bg="#FFFFFF"
-            size={{ base: "md", md: "lg" }}
+            size={{ base: "xs", md: "md", lg: "lg" }}
           >
             7
           </Button>
           <Button
             fontSize={{ base: "24px", md: "36px" }}
             bg="#FFFFFF"
-            size={{ base: "md", md: "lg" }}
+            size={{ base: "xs", md: "md", lg: "lg" }}
           >
             1
           </Button>
         </Stack>
-        <Heading fontWeight="400" fontSize={{ base: "24px", md: "36px" }}>
+        <Heading
+          fontWeight="400"
+          fontSize={{ base: "20px", md: "36px", lg: "36px" }}
+        >
           kg
         </Heading>
       </Center>

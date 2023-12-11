@@ -16,14 +16,16 @@ export default function Database() {
     <>
       <Flex
         w="100%"
-        h={{ base: "auto", md: "300px" }}
+        h={{ base: "auto", md: "auto" }}
         mt="50px"
+        mb={{ base: "5vh", md: "20vh" }}
         direction={{ base: "column", md: "row" }}
+        align="center"
       >
         <Box
           h="100%"
           w={{ base: "100%", md: "50%" }}
-          ml={{ base: "0", md: "166px" }}
+          ml={{ base: "0", md: "2vw" }}
         >
           <Heading fontSize={{ base: "28px", md: "36px" }} mb="25px">
             Database with 300+ exercises

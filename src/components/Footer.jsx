@@ -16,14 +16,14 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <Flex bg="#26a9e1" w="100%" h="375px" direction="column">
+    <Flex bg="#26a9e1" w="100%" h="auto" direction="column">
       <Flex
         h="275px"
         width="70%"
         margin="auto"
         direction="row"
         justify="space-around"
-        flexWrap="wrap" // Allow items to wrap to the next line on smaller screens
+        flexWrap="wrap"
       >
         <Box mt={{ base: "20px", md: "70px" }}>
           <Heading size="sm">ABOUT</Heading>
@@ -124,8 +124,14 @@ export default function Footer() {
           </Text>
         </Box>
       </Flex>
-      <Box h="100px" width="70%" borderTop="1px solid #FFFFFF" margin="auto">
-        <Text color="#FFFFFF" mt="20px" ml="15px">
+      <Box
+        h="100px"
+        width="70%"
+        borderTop="1px solid #FFFFFF"
+        margin="auto"
+        mt="2vh"
+      >
+        <Text color="#FFFFFF" mt="3vh" ml="15px">
           Copyright © Gymwolf OÜ. All Rights Reserved. E-mail: info@gymwolf.com
         </Text>
       </Box>

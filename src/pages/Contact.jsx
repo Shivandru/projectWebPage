@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Heading, Text } from "@chakra-ui/react";
 export default function Contact() {
   return (
-    <Box ml="150px" h="450px" w="100%" border="1px solid white">
+    <Box pl="5vw" h="62vh" w="100%" border="1px solid white">
       <Box mt="120px">
         <Heading fontWeight="500" fontSize="36px">
           Gymwolf - Contact

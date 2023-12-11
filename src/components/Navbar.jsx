@@ -35,12 +35,12 @@ export default function Navbar() {
         h="80px"
         justify="space-between"
         opacity="0.7"
-        zIndex={2}
+        zIndex={5}
         position="fixed"
         top="0px"
         w="100%"
       >
-        <Center ml="150px">
+        <Center ml="10vw">
           <Breadcrumb>
             <BreadcrumbItem>
               <BreadcrumbLink as={Link} to="/">
@@ -49,8 +49,8 @@ export default function Navbar() {
             </BreadcrumbItem>
           </Breadcrumb>
         </Center>
-        <Center mr="150px">
-          <Stack direction="row" spacing={4}>
+        <Center mr="5vw" ml="2vw">
+          <Stack direction="row" spacing={3}>
             <Button
               ref={registerRef}
               color="#FFFFFF"
